@@ -31,6 +31,9 @@ html, body {
     left: 50%;
     transform: translateX(-50%);
 	box-shadow: 0 3px 14px rgba(0,0,0,0.4);
+
+    width: 500px;
+    max-width: 90vw;
 }
 
 .ol-popup:after, .ol-popup:before {
@@ -123,8 +126,8 @@ td {
 }
 
 td img {
-	max-height: 50vh!important;
-	max-width: 50vw!important;
+    width: 100% !important;
+    height: auto !important;
 }
 
 td video {
@@ -594,4 +597,15 @@ td video {
     bottom: 40px;   /* etwas höher als Abstract */
     margin: 0 !important;
     float: none !important;
+}
+
+/* =========================================
+   POPUP IMAGE FIX (GLOBAL)
+   ========================================= */
+
+#popup-content img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin-bottom: 10px;
 }
