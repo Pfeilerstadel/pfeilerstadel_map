@@ -237,7 +237,7 @@ var group_Hofformen = new ol.layer.Group({
                                 title: 'Hofformen'});
 var group_Hofstellen = new ol.layer.Group({
                                 layers: [lyr_Hofstellen_Kaernten_2,],
-                                fold: 'open',
+                                fold: 'close',
                                 title: 'Hofstellen'});
 var group_Bebauung = new ol.layer.Group({
                                 layers: [lyr_Pfeilerstadel_1,],
