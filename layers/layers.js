@@ -225,7 +225,7 @@ var lyr_AllePfeilerstadel_15 = new ol.layer.Vector({
             });
 var group_AllePfeilerstadel = new ol.layer.Group({
                                 layers: [lyr_AllePfeilerstadel_15,],
-                                fold: 'close',
+                                fold: 'open',
                                 title: 'Alle Pfeilerstadel'});
 var group_AktuelleNutzung = new ol.layer.Group({
                                 layers: [lyr_Nichtnachvollziehbar_9,lyr_LandwirtschaftlicheNutzung_10,lyr_Leerstand_11,lyr_Verfallen_12,lyr_Abgerissen_13,lyr_AlternativeNutzung_14,],
@@ -233,7 +233,7 @@ var group_AktuelleNutzung = new ol.layer.Group({
                                 title: 'Aktuelle Nutzung'});
 var group_Hofformen = new ol.layer.Group({
                                 layers: [lyr_Einhof_3,lyr_Haufenhof_4,lyr_Paarhof_5,lyr_Ringhof_6,lyr_Solitr_7,lyr_Streuhof_8,],
-                                fold: 'close',
+                                fold: 'open',
                                 title: 'Hofformen'});
 var group_Hofstellen = new ol.layer.Group({
                                 layers: [lyr_Hofstellen_Kaernten_2,],
