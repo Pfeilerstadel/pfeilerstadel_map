@@ -504,11 +504,11 @@ var centerContainerDiv = document.getElementById('center-container')
 var Title = new ol.control.Control({
     element: (() => {
         var titleElement = document.createElement('div');
-        titleElement.className = 'top-left-title ol-control';
+        titleElement.className = 'bottom-right-title ol-control';
         titleElement.innerHTML = '<h2 class="project-title">Pfeilerstadel in Kärnten</h2>';
         return titleElement;
     })(),
-    target: 'top-left-container'
+    target: 'bottom-right-container'
 });
 map.addControl(Title)
     

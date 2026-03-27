@@ -233,7 +233,7 @@ var group_AktuelleNutzung = new ol.layer.Group({
                                 title: 'Aktuelle Nutzung'});
 var group_Hofformen = new ol.layer.Group({
                                 layers: [lyr_Einhof_3,lyr_Haufenhof_4,lyr_Paarhof_5,lyr_Ringhof_6,lyr_Solitr_7,lyr_Streuhof_8,],
-                                fold: 'close',
+                                fold: 'open',
                                 title: 'Hofformen'});
 var group_Hofstellen = new ol.layer.Group({
                                 layers: [lyr_Hofstellen_Kaernten_2,],
